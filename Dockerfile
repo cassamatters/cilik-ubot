@@ -6,4 +6,4 @@ RUN git clone -b Cilik-Userbot https://github.com/grey423/CilikUserbot /home/cil
 
 WORKDIR /home/cilikuserbot/
 
-CMD [ "bash", "start" ]
+CMD ["python3", "-m", "userbot"]
